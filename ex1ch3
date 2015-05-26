@@ -1,0 +1,22 @@
+puts "I will now count my chickens."
+
+puts "Hens #{25 + 30 / 6}" # Division takes precedence over multiplication. The result is 30. 
+puts "Roosters #{100 - 25 * 3 % 4}" # Operators execute themselves in this order: multiplication, modulus, and substraction. 
+
+puts "Now I will count the eggs." # Prints out a sentence. 
+
+puts 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6 # 1 / 4 is zero. 4 % 2 is also zero. This leaves us with (1 + 2 + 3 + 6) - 5
+
+puts "Is it true that 3 + 2 < 5 - 7 ? " 
+
+puts 3 + 2 < 5 - 7 # This statement checks if 3 + 2 are really smaller than 5 + 7. It is a Boolean test. 
+
+puts "What is 3 + 2? #{3 + 2}" # Three plus two are five. 
+puts "What is 5 - 7? #{5 - 7}" # Five minus seven are minus two. 
+
+puts "Oh, that's why it is false." 
+
+puts "How about some more? " 
+puts "Is it greater? #{5 > -2}" # Boolean test. 
+puts "Is it greater or equal? #{5 >= -2}" # Boolean test.
+puts "Is it less or equal? #{5 <= 2} " # Boolean test.
