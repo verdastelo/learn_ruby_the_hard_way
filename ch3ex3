@@ -1,0 +1,11 @@
+puts "This program finds out the speed with which the earth is revolving around the sun." 
+puts "It is easy." 
+
+puts "The earth's distance from the sun is: " 
+puts "150,000,000 km" 
+
+puts "The earth takes a year to complete one rotation."
+puts "Therefore, it takes #{365.25 * 24 * 60 * 60} seconds." 
+
+puts "Dividing 150,000,000 km by 365.25 * 24 * 60 * 60 gives us: " 
+puts "#{150000000 / 31557600.0} km/s" 
